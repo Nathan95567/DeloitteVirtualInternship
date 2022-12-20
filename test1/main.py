@@ -7,11 +7,15 @@ with open("./data-2.json","r") as f:
 with open("./data-result.json","r") as f:
     jsonExpectedResult = json.load(f)
 
+"""
+In this project, I created two function to convert the format from data-1 and data-2 to data-result. 
+Function convertFromFormat1 is used to convert data-1 and the other function is used to convert data-2.
+"""
+
 
 def convertFromFormat1 (jsonObject):
 
     # IMPLEMENT: Conversion From Type 1
-    # Split the location to different format
     newLocation = jsonObject["location"].split('/')
 
     jsonObject = {
