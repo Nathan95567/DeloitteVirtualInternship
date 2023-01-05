@@ -1,4 +1,4 @@
-# VirtualInternship
+# Virtual Internship
 
 This repository is used to store some virtual internship code and completion certificate..
 
